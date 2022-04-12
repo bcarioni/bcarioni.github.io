@@ -1,0 +1,45 @@
+
+header{
+	
+    height: 120px;
+    text-align: center;
+    padding-top: 30px;
+}
+div {
+	text-align: center;
+	display: block;
+	
+}
+
+button{
+	background-color:#4C9379;
+	color: white;
+	border-radius: 10px;
+	width: 550px;
+	height: 50px;
+	left: 29px;
+	margin: 10px;
+	font-size: 32px;
+	text-align: left;
+}
+
+body{
+	margin: none;
+	
+}
+#ajuda{
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+
+#relogio {
+	text-align: center;
+	margin: 50px;
+}
+
+.icones {
+	text-align: right;
+	
+
+}
