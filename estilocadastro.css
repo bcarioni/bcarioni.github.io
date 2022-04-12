@@ -1,0 +1,51 @@
+body {
+  background-image: linear-gradient(45deg, #3B806B, lightcyan)
+}
+
+div{
+  background-color: #3B806B;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /**centralizar**/
+  padding: 65px; /**espaço entre as palavras e a borda**/
+  border-radius: 15px; /**arredondar as bordas**/
+}
+
+h1 {
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+  line-height: 0px;
+}
+
+h3{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+}
+
+input{
+  padding: 8px; /*grossura*/
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+button{
+  border: none;
+  padding: 13px; /** dist entre os elementos e a borda**/
+  width: 100%; /**largura**/
+  border-radius: 10px; /**arredondar a borda**/
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+button:hover{
+  background-color:#DADADA;
+  cursor: pointer;
+}
