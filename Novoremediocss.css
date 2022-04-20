@@ -4,7 +4,7 @@
 #corpo {
     background-color: white;
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%); /**centralizar**/
     padding: 90px; /**espaço entre as palavras e a borda**/
@@ -38,6 +38,23 @@ input {
 }
 
 #A1 {
+    color: #E9D0A7;
+    background-color: white;
+    border-color: #E9D0A7;
+    width: 70px;
+    height: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+    #A1:focus {
+        color: white;
+        background-color: #E9D0A7;
+        border-color: #E9D0A7;
+    }
+
+#A2 {
     color: white;
     background-color: #E9D0A7;
     border-color: #E9D0A7;
@@ -48,13 +65,32 @@ input {
     border-radius: 15px;
     
 }
-#A1:focus {
+#A2:focus {
         color: #E9D0A7;
         background-color: white;
         border-color: #E9D0A7;
 }
 
+
+
 #B1 {
+    color: #ECAAA6;
+    background-color: white;
+    border-color: #ECAAA6;
+    width: 70px;
+    height: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+    #B1:focus {
+        color: white;
+        background-color: #ECAAA6;
+        border-color: #ECAAA6;
+    }
+
+#B4 {
     color: white;
     background-color: #ECAAA6;
     border-color: #ECAAA6;
@@ -65,13 +101,31 @@ input {
     border-radius: 15px;
 }
 
-    #B1:focus {
+    #B4:focus {
         color: #ECAAA6;
         background-color: white;
         border-color: #ECAAA6;
     }
 
 #C1 {
+    color: #FEAA86;
+    background-color: white;
+    border-color: #FEAA86;
+    width: 70px;
+    height: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+    #C1:focus {
+        color: white;
+        background-color: #FEAA86;
+        border-color: #FEAA86;
+    }
+
+
+#C01 {
     color: white;
     background-color: #FEAA86;
     border-color: #FEAA86;
@@ -82,15 +136,16 @@ input {
     border-radius: 15px;
 }
 
-    #C1:focus {
+    #C01:focus {
         color: #FEAA86;
         background-color: white;
         border-color: #FEAA86;
     }
 
+
 #D1 {
-    color: white;
-    background-color: #D3B0CC;
+    color: #D3B0CC;
+    background-color: white;
     border-color: #D3B0CC;
     width: 70px;
     height: 60px;
@@ -100,8 +155,8 @@ input {
 }
 
     #D1:focus {
-        color: #D3B0CC;
-        background-color: white;
+        color: white;
+        background-color: #D3B0CC;
         border-color: #D3B0CC;
     }
 
@@ -122,9 +177,28 @@ input {
         border-color: #A0DCEA;
     }
 
+#E3 {
+    color: #A0DCEA;
+    background-color: white;
+    border-color: #A0DCEA;
+    width: 70px;
+    height: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+    #E3:focus {
+        color: white;
+        background-color: #A0DCEA;
+        border-color: #A0DCEA;
+    }
+
+
+
 #F1 {
-    color: white;
-    background-color: #BAD5D2;
+    color: #BAD5D2;
+    background-color: white;
     border-color: #BAD5D2;
     width: 70px;
     height: 60px;
@@ -134,14 +208,14 @@ input {
 }
 
     #F1:focus {
-        color: #BAD5D2;
-        background-color: white;
+        color: white;
+        background-color: #BAD5D2;
         border-color: #BAD5D2;
     }
 
 #G1 {
-    color: white;
-    background-color: #B3B1AE;
+    color: #B3B1AE;
+    background-color: white;
     border-color: #B3B1AE;
     width: 70px;
     height: 60px;
@@ -151,11 +225,10 @@ input {
 }
 
     #G1:focus {
-        color: #B3B1AE;
-        background-color: white;
+        color: white;
+        background-color: #B3B1AE;
         border-color: #B3B1AE;
-  
-        }
+    }
 
  #privacidade{
     position:absolute;
