@@ -1,0 +1,70 @@
+body {
+	margin: none;
+	background-image: linear-gradient(45deg, #3B806B, lightcyan)
+}
+
+.prancheta {
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); /**centralizar**/
+	padding: 65px; /**espaço entre as palavras e a borda**/
+	border-radius: 15px; /**arredondar as bordas**/
+}
+
+.iconeajuda {
+	margin:0px,-50px,0,0;
+	float:right;
+	transform: translate(40px, -100%);
+	cursor: pointer;
+}
+
+.relogio {
+	text-align: center;
+	margin: 50px;
+	transform: translate(0px, -10%);
+}
+
+.textoBotao{
+	float:left;
+	text-align:left;
+	width:300px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 29px;
+	font-weight: bold;
+	color: white;
+}
+
+button {
+	width: 100%;
+	border: none;
+	vertical-align: top;
+	border-radius: 10px;
+	text-align: left;
+	background-color: #4C9379;
+
+}
+
+.botao {
+	transform: translate(0%, -10%);
+	background-color: #4C9379;
+	vertical-align: top;
+	border-radius: 10px;
+	text-align: left;
+	border: none;
+	font-family: 'Dosis', sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 15px;
+}
+
+.icones {
+	float: right;
+	vertical-align:top;
+}
+
+button:hover {
+	background-color: #7C9F8E;
+	cursor: pointer;
+}
