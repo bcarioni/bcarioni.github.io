@@ -1,0 +1,73 @@
+﻿body {
+    background-image: linear-gradient(45deg, #3B806B, lightcyan)
+}
+
+div#conteiner {
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /**centralizar**/
+    padding: 65px; /**espaço entre as palavras e a borda**/
+    border-radius: 15px; /**arredondar as bordas**/
+}
+
+h1 {
+    color: #3B806B;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    line-height: 0px;
+}
+
+h3 {
+    color: #3B806B;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+}
+
+input {
+    padding: 8px; /*grossura*/
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #EFEFEF;
+}
+
+button {
+    border: none;
+    padding: 13px; /** dist entre os elementos e a borda**/
+    width: 100%; /**largura**/
+    border-radius: 10px; /**arredondar a borda**/
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px; /* margem superior para espaçar */
+    background-color: #3B806B;
+}
+
+    button:hover {
+        background-color: #7C9F8E;
+        cursor: pointer;
+    }
+
+/* div para divisão de 2 colunas */
+div.bloco {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 16px;
+}
+
+    /* espaçamento para img dentro do div bloco */
+    div.bloco img {
+        padding: 5px;
+    }
+
+div.titulo {
+    display: grid;
+    grid-template-columns: auto 94px;
+    margin-bottom: 20px;
+}
