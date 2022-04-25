@@ -1,6 +1,7 @@
-﻿body
-{   
+﻿body {
+    background-image: linear-gradient(45deg, #3B806B, lightcyan)
 }
+
 #corpo {
     background-color: white;
     position: absolute;
@@ -17,8 +18,10 @@ div{
 }
 
 h1 {
-    font-family: 'Dosis', sans-serif;
     color: #3B806B;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    line-height: 0px;
 }
 
 h2 {
@@ -40,7 +43,7 @@ input {
 #A1 {
     color: #E9D0A7;
     background-color: white;
-    border-color: #E9D0A7;
+    border: 2px solid #E9D0A7;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -57,13 +60,12 @@ input {
 #A2 {
     color: white;
     background-color: #E9D0A7;
-    border-color: #E9D0A7;
+    border: 2px solid #E9D0A7;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
     border-radius: 15px;
-    
 }
 #A2:focus {
         color: #E9D0A7;
@@ -76,7 +78,7 @@ input {
 #B1 {
     color: #ECAAA6;
     background-color: white;
-    border-color: #ECAAA6;
+    border: 2px solid #ECAAA6;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -93,7 +95,7 @@ input {
 #B4 {
     color: white;
     background-color: #ECAAA6;
-    border-color: #ECAAA6;
+    border: 2px solid #ECAAA6;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -110,7 +112,7 @@ input {
 #C1 {
     color: #FEAA86;
     background-color: white;
-    border-color: #FEAA86;
+    border: 2px solid #FEAA86;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -128,7 +130,7 @@ input {
 #C01 {
     color: white;
     background-color: #FEAA86;
-    border-color: #FEAA86;
+    border: 2px solid #FEAA86;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -146,7 +148,7 @@ input {
 #D1 {
     color: #D3B0CC;
     background-color: white;
-    border-color: #D3B0CC;
+    border: 2px solid #D3B0CC;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -163,7 +165,7 @@ input {
 #E1 {
     color: white;
     background-color: #A0DCEA;
-    border-color: #A0DCEA;
+    border: 2px solid #A0DCEA;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -180,7 +182,7 @@ input {
 #E3 {
     color: #A0DCEA;
     background-color: white;
-    border-color: #A0DCEA;
+    border: 2px solid #A0DCEA;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -199,7 +201,7 @@ input {
 #F1 {
     color: #BAD5D2;
     background-color: white;
-    border-color: #BAD5D2;
+    border: 2px solid #BAD5D2;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -216,7 +218,7 @@ input {
 #G1 {
     color: #B3B1AE;
     background-color: white;
-    border-color: #B3B1AE;
+    border: 2px solid #B3B1AE;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -238,10 +240,10 @@ input {
 
 #ajuda {
     position: absolute;
-    right: 5px;
-    top: 10px;
+    right: 18px;
+    top: 16px;
 }
-#cadastro {
+button {
     border: none;
     padding: 13px; /** dist entre os elementos e a borda**/
     width: 100%; /**largura**/
@@ -253,6 +255,11 @@ input {
     color:white;
     
 }
+
+    button:hover {
+        background-color: #7C9F8E;
+        cursor: pointer;
+    }
 
 
 

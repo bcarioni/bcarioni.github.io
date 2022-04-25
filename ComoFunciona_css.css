@@ -1,4 +1,5 @@
 ﻿body {
+    background-image: linear-gradient(45deg, #3B806B, lightcyan)
 }
 
 #corpo {
@@ -27,18 +28,24 @@ h2 {
 
 h3 {
     position: absolute;
-    color: black;
-    font-family: 'Dosis', sans-serif;
-    width:200px;
-    display:inline-block;
-    right:310px;
+    color: #595959;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    display: inline-block;
+    right: 310px;
 }
 
+p {
+    color: #595959;
+    font-family: 'Poppins', sans-serif;
+    right: 310px;
+    font-weight: bold;
+}
 
 #A1 {
     color: #E9D0A7;
     background-color: white;
-    border-color: #E9D0A7;
+    border: 2px solid #E9D0A7;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -55,7 +62,7 @@ h3 {
 #A2 {
     color: white;
     background-color: #E9D0A7;
-    border-color: #E9D0A7;
+    border: 2px solid #E9D0A7;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -74,7 +81,7 @@ h3 {
 #B1 {
     color: #ECAAA6;
     background-color: white;
-    border-color: #ECAAA6;
+    border: 2px solid #ECAAA6;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -91,7 +98,7 @@ h3 {
 #B4 {
     color: white;
     background-color: #ECAAA6;
-    border-color: #ECAAA6;
+    border: 2px solid #ECAAA6;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -108,7 +115,7 @@ h3 {
 #C1 {
     color: #FEAA86;
     background-color: white;
-    border-color: #FEAA86;
+    border: 2px solid #FEAA86;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -126,7 +133,7 @@ h3 {
 #C01 {
     color: white;
     background-color: #FEAA86;
-    border-color: #FEAA86;
+    border: 2px solid #FEAA86;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -144,7 +151,7 @@ h3 {
 #D1 {
     color: #D3B0CC;
     background-color: white;
-    border-color: #D3B0CC;
+    border: 2px solid #D3B0CC;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -161,7 +168,7 @@ h3 {
 #E1 {
     color: white;
     background-color: #A0DCEA;
-    border-color: #A0DCEA;
+    border: 2px solid #A0DCEA;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -178,7 +185,7 @@ h3 {
 #E3 {
     color: #A0DCEA;
     background-color: white;
-    border-color: #A0DCEA;
+    border: 2px solid #A0DCEA;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -197,7 +204,7 @@ h3 {
 #F1 {
     color: #BAD5D2;
     background-color: white;
-    border-color: #BAD5D2;
+    border: 2px solid #BAD5D2;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -214,7 +221,7 @@ h3 {
 #G1 {
     color: #B3B1AE;
     background-color: white;
-    border-color: #B3B1AE;
+    border: 2px solid #B3B1AE;
     width: 70px;
     height: 60px;
     font-family: 'Poppins', sans-serif;
@@ -230,8 +237,8 @@ h3 {
 
 #ajuda {
     position: absolute;
-    right: 5px;
-    top: 10px;
+    right: 18px;
+    top: 16px;
 }
 
 
