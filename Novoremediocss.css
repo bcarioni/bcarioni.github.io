@@ -260,7 +260,8 @@ button {
         background-color: #7C9F8E;
         cursor: pointer;
     }
-a {
+
+a.botao{
   color: white;
   text-decoration: none;
 }
