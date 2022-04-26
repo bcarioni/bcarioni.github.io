@@ -264,3 +264,9 @@ a {
   color: white;
   text-decoration: none;
 }
+
+a.titulo {
+    font-family: 'Dosis', sans-serif;
+    color: #3B806B;
+    text-decoration: none;
+}
