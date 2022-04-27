@@ -56,14 +56,11 @@ h3 {
 #D1 {
     color: white;
     background-color: #D3B0CC;
-    font-family: 'Dosis', sans-serif;
-    font-size: 30px;
     border: 2px solid #D3B0CC;
     width: 473px;
     height: 60px;
     border-radius: 15px;
     margin:5px;
-    text-align:left;
     
 }
 
@@ -83,7 +80,7 @@ h3 {
 #D3 {
     color: white;
     background-color: #FEAA86;
-    font-family: 'Dosis', sans-serif;
+   
     font-size: 30px;
     border: 2px solid #FEAA86;
     width: 473px;
@@ -111,5 +108,24 @@ h3 {
 #calendario {
     text-align: center;
     margin:10px;
+}
+
+.D {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    text-align: right;
+    position: absolute;
+    font-size: 30px;
+    right: 142px;
+    top: 431px;
+}
+
+.textob {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    text-align: left;
+    position: absolute;
+    font-size: 30px;
+    top: 431px;
 }
 
