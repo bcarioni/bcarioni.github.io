@@ -27,6 +27,7 @@ h1 {
 h2 {
     font-family: 'Dosis', sans-serif;
     color: #3B806B;
+    margin: 11px;
 }
 
 input {
@@ -243,17 +244,16 @@ input {
     right: 18px;
     top: 16px;
 }
-button {
+.cadastrar {
     border: none;
-    padding: 13px; /** dist entre os elementos e a borda**/
+   padding: 13px; /** dist entre os elementos e a borda**/
     width: 100%; /**largura**/
     border-radius: 10px; /**arredondar a borda**/
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: bold;
     background-color: #3B806B;
-    color:white;
-    
+    color: white;
 }
 
     button:hover {
@@ -273,9 +273,7 @@ a.titulo {
 }
 
 div.bloco {
-    display: grid;
-    grid-template-columns: 170px auto;
-    grid-row-gap: 16px;
+   heigh
 }
 
     /* espaçamento para img dentro do div bloco */
@@ -284,4 +282,17 @@ div.bloco {
         cursor: pointer;
         width: 25px;
         display: block;
+        transform: translate(692%, -108%);
     }
+
+
+.digitalizar {
+    font-family: 'Poppins', sans-serif;
+    background-color: #DDD; /*grossura*/
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
