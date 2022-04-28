@@ -195,7 +195,7 @@ button {
     padding: 13px; /** dist entre os elementos e a borda**/
     width: 100%; /**largura**/
     border-radius: 10px; /**arredondar a borda**/
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 15px;
     font-weight: bold;
     background-color: #3B806B;
@@ -226,3 +226,10 @@ div.bloco {
         width: 25px;
         display: block;
     }
+a.salvar {
+    color: white;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
