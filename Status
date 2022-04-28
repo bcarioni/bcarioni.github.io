@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Status - EasyBox</title>
+    <link rel="stylesheet" href="estilostatus.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ 
+    <div id="corpo">
+        <img id="ajuda" src="icones/AJUDA_CINZA.png" width="50px" onclick="alert('Nesta página você consegue ter uma visão de como seus remédios estão posicionados na sua caixa física e quais compartimentos estão ocupados nela. Acima da visão da sua caixa existe uma legenda mostrando com diferentes cores os espaços que estão disponíveis e quais estão preenchidos.')">
+
+        <h1>Status da sua caixinha</h1>
+
+        <p>Veja quais posições ainda estão disponíveis e clique para visualizar o remédio já cadastrado!</p>
+        <br />
+
+        <button id="A1" type="button" class="btn btn-primary" disabled></button>
+        <h3>Espaços disponíveis</h3>
+
+        <br /><br />
+
+        <button id="A2" type="button" class="btn btn-primary" disabled></button>
+        <h3>Espaços preenchidos</h3>
+
+        <br /><br />
+
+        <h2>Posição</h2>
+
+
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button id="A1" type="button" class="btn btn-primary">A1</button>
+            <button id="B1" type="button" class="btn btn-primary">B1</button>
+            <button id="C01" type="button" class="btn btn-primary" disabled>C1</button>
+            <button id="D1" type="button" class="btn btn-primary">D1</button>
+            <button id="E1" type="button" class="btn btn-primary" disabled>E1</button>
+            <button id="F1" type="button" class="btn btn-primary">F1</button>
+            <button id="G1" type="button" class="btn btn-primary">G1</button>
+            <br><br />
+            <button id="A2" type="button" class="btn btn-primary" disabled>A2</button>
+            <button id="B1" type="button" class="btn btn-primary">B2</button>
+            <button id="C1" type="button" class="btn btn-primary">C2</button>
+            <button id="D1" type="button" class="btn btn-primary">D2</button>
+            <button id="E1" type="button" class="btn btn-primary" disabled>E2</button>
+            <button id="F1" type="button" class="btn btn-primary">F2</button>
+            <button id="G1" type="button" class="btn btn-primary">G2</button>
+            <br><br />
+            <button id="A1" type="button" class="btn btn-primary">A3</button>
+            <button id="B1" type="button" class="btn btn-primary">B3</button>
+            <button id="C1" type="button" class="btn btn-primary">C3</button>
+            <button id="D1" type="button" class="btn btn-primary">D3</button>
+            <button id="E3" type="button" class="btn btn-primary">E3</button>
+            <button id="F1" type="button" class="btn btn-primary">F3</button>
+            <button id="G1" type="button" class="btn btn-primary">G3</button>
+            <br><br />
+            <button id="A1" type="button" class="btn btn-primary">A4</button>
+            <button id="B4" type="button" class="btn btn-primary" disabled>B4</button>
+            <button id="C1" type="button" class="btn btn-primary">C4</button>
+            <button id="D1" type="button" class="btn btn-primary">D4</button>
+            <button id="E1" type="button" class="btn btn-primary" disabled>E4</button>
+            <button id="F1" type="button" class="btn btn-primary">F4</button>
+            <button id="G1" type="button" class="btn btn-primary">G4</button>
+
+        </div>
+        <br />
+
+    </div>
+</body>
+</html>
