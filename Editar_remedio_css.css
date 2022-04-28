@@ -212,3 +212,17 @@ button {
     position:absolute;
    
 }
+
+div.bloco {
+    display: grid;
+    grid-template-columns: 170px auto;
+    grid-row-gap: 16px;
+}
+
+    /* espaçamento para img dentro do div bloco */
+    div.bloco img {
+        padding: 16px 5px;
+        cursor: pointer;
+        width: 25px;
+        display: block;
+    }
