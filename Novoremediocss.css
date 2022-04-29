@@ -244,6 +244,14 @@ input {
     right: 18px;
     top: 16px;
 }
+
+#voltar {
+	position: absolute;
+   	left: 18px;
+    top: 16px;
+    cursor: pointer;
+}
+
 .cadastrar {
     border: none;
    padding: 13px; /** dist entre os elementos e a borda**/
