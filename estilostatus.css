@@ -262,3 +262,9 @@ p {
 button{
     cursor: pointer;
 }
+
+a.D2{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    text-decoration: none;
+}
