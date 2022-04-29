@@ -259,6 +259,13 @@ p {
     cursor: pointer;
 }
 
+#voltar {
+	margin:0px,-50px,0,0;
+	float: left;
+	transform: translate(40px, -100%);
+	cursor: pointer;
+}
+
 button{
     cursor: pointer;
 }
