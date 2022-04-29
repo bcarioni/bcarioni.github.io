@@ -219,17 +219,29 @@ div.bloco {
     grid-row-gap: 16px;
 }
 
-    /* espaçamento para img dentro do div bloco */
-    div.bloco img {
-        padding: 16px 5px;
-        cursor: pointer;
-        width: 25px;
-        display: block;
-    }
+/* espaçamento para img dentro do div bloco */
+div.bloco img {
+    padding: 16px 5px;
+    cursor: pointer;
+    width: 25px;
+    display: block;
+}
+
 a.salvar {
     color: white;
     font-weight: bold;
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
     text-decoration: none;
+}
+
+.digitalizar {
+    font-family: 'Poppins', sans-serif;
+    background-color: #DDD; /*grossura*/
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
 }
