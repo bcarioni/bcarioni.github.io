@@ -193,7 +193,6 @@ input {
 
 button {
     border: none;
-    padding: 13px; /** dist entre os elementos e a borda**/
     width: 100%; /**largura**/
     border-radius: 10px; /**arredondar a borda**/
     font-family: 'Dosis', sans-serif;
