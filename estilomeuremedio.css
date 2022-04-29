@@ -26,6 +26,7 @@ h1 {
 h2 {
     font-family: 'Dosis', sans-serif;
     color: #3B806B;
+    margin: 11px
 }
 
 input {
@@ -191,7 +192,6 @@ input {
 
 button {
     border: none;
-    padding: 13px; /** dist entre os elementos e a borda**/
     width: 100%; /**largura**/
     border-radius: 10px; /**arredondar a borda**/
     font-family: 'Poppins', sans-serif;
@@ -237,7 +237,7 @@ div.bloco {
 
 .cadastrar {
     border: none;
-   padding: 13px; /** dist entre os elementos e a borda**/
+    padding: 13px; /** dist entre os elementos e a borda**/
     width: 100%; /**largura**/
     border-radius: 10px; /**arredondar a borda**/
     font-family: 'Poppins', sans-serif;
