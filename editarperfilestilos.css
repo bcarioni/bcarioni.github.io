@@ -63,7 +63,10 @@ div.bloco {
 
     /* espaçamento para img dentro do div bloco */
     div.bloco img {
-        padding: 5px;
+        padding: 16px 5px;
+        cursor: pointer;
+        width: 25px;
+        display: block;
     }
 
 div.titulo {
