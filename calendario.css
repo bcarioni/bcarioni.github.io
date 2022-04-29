@@ -160,9 +160,17 @@ h1{
     font-size: 40px;
     line-height: 0px;
 }
+
 #ajuda {
 	position: absolute;
 	right: 18px;
 	top: 16px;
 	cursor: pointer;
+}
+
+#voltar {
+	position: absolute;
+   	left: 18px;
+    	top: 16px;
+    	cursor: pointer;
 }
