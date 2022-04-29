@@ -20,11 +20,11 @@
     cursor: pointer;
 }
 
-#voltar {
+#voltartudo{
 	position: absolute;
    	left: 18px;
-    top: 16px;
-    cursor: pointer;
+    	top: 16px;
+    	cursor: pointer;
 }
 
 h1 {
@@ -48,6 +48,7 @@ h3 {
     left: 169px;
     text-align: center;
 }
+
 #voltar2 {
     position: absolute;
     top: 141px;
