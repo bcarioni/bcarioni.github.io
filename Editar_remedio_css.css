@@ -188,7 +188,13 @@ input {
     position: absolute;
     right: 18px;
     top: 16px;
+}
 
+#voltar {
+	position: absolute;
+   	left: 18px;
+    top: 16px;
+    cursor: pointer;
 }
 
 button {
