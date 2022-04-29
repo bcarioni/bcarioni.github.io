@@ -20,6 +20,13 @@
     cursor: pointer;
 }
 
+#voltar {
+	position: absolute;
+   	left: 18px;
+    top: 16px;
+    cursor: pointer;
+}
+
 h1 {
     color: #3B806B;
     font-family: 'Dosis', sans-serif;
