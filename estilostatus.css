@@ -260,10 +260,10 @@ p {
 }
 
 #voltar {
-	margin:0px,-50px,0,0;
-	float: left;
-	transform: translate(-56px, -100%);
-	cursor: pointer;
+	position: absolute;
+   	left: 18px;
+    	top: 16px;
+    	cursor: pointer;
 }
 
 button{
