@@ -1,5 +1,5 @@
 ﻿body {
-    background-image: linear-gradient(45deg, #3B806B, lightcyan)
+    background-image: linear-gradient(45deg, #3B806B, lightcyan);
 }
 
 #corpo {
@@ -165,7 +165,7 @@ p {
         border-color: #D3B0CC;
     }
 
-#D2 {
+#D02 {
     color: white;
     background-color: #D3B0CC;
     border: 2px solid #D3B0CC;
@@ -176,7 +176,7 @@ p {
     border-radius: 15px;
 }
 
-    #D2:focus {
+    #D02:focus {
         color: #D3B0CC;
         background-color: white;
         border-color: #D3B0CC;
