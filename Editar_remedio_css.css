@@ -26,6 +26,7 @@ h1 {
 h2 {
     font-family: 'Dosis', sans-serif;
     color: #3B806B;
+    margin: 11px;
 }
 
 input {
@@ -213,20 +214,6 @@ button {
    
 }
 
-div.bloco {
-    display: grid;
-    grid-template-columns: 170px auto;
-    grid-row-gap: 16px;
-}
-
-/* espaçamento para img dentro do div bloco */
-div.bloco img {
-    padding: 16px 5px;
-    cursor: pointer;
-    width: 25px;
-    display: block;
-}
-
 a.salvar {
     color: white;
     font-weight: bold;
@@ -234,6 +221,48 @@ a.salvar {
     font-size: 20px;
     text-decoration: none;
 }
+
+.salvar {
+    border: none;
+   padding: 13px; /** dist entre os elementos e a borda**/
+    width: 100%; /**largura**/
+    border-radius: 10px; /**arredondar a borda**/
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #3B806B;
+    color: white;
+}
+
+    button:hover {
+        background-color: #7C9F8E;
+        cursor: pointer;
+    }
+
+a.botao{
+  color: white;
+  text-decoration: none;
+}
+
+a.titulo {
+    font-family: 'Dosis', sans-serif;
+    color: #3B806B;
+    text-decoration: none;
+}
+
+div.bloco {
+   heigh
+}
+
+    /* espaçamento para img dentro do div bloco */
+    div.bloco img {
+        padding: 16px 5px;
+        cursor: pointer;
+        width: 25px;
+        display: block;
+        transform: translate(692%, -108%);
+    }
+
 
 .digitalizar {
     font-family: 'Poppins', sans-serif;
