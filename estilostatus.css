@@ -262,7 +262,7 @@ p {
 #voltar {
 	margin:0px,-50px,0,0;
 	float: left;
-	transform: translate(40px, -100%);
+	transform: translate(-56px, -100%);
 	cursor: pointer;
 }
 
